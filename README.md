@@ -124,7 +124,7 @@ sudo mkdir -p /opt/popcache/logs
 * 5. Now move & Unrap the pop file with following these commands!
 
 ```
-sudo mv ~/pop-v0.3.0-linux-x64.tar.gz /opt/popcache/
+sudo mv ~/pop-v0.3.1-linux-x64.tar.gz /opt/popcache/
 ```
 
 ```
@@ -132,9 +132,9 @@ cd /opt/popcache/
 ```
 
 ```
-sudo tar -xzf pop-v0.3.0-linux-x64.tar.gz
+sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
 sudo chmod +x ./pop
-chmod 777 pop-v0.3.0-linux-x64.tar.gz
+chmod 777 pop-v0.3.1-linux-x64.tar.gz
 sudo ln -sf /opt/popcache/pop /usr/local/bin/pop
 ```
 
