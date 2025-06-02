@@ -350,9 +350,54 @@ sudo systemctl start popcache
 ![image](https://github.com/user-attachments/assets/258db6cb-1706-454b-96ec-e32ba35670a2)
 
 
-👉 Join TG for more Updates: https://telegram.me/cryptogg
+
+<div align="center">
+
+# 🏃 Path where u need to move `pop-v0.3.0-linux-x64.tar.gz` for LOCAL PC 🏃
+
+
+</div
+
+
+**------For the people who are facing issue while running pipe on local pc-- they are confused that where we have to move or drop the `pop-v0.3.0-linux-x64.tar.gz` file: So u have to watch this video for understing much batter:**
+
+* **Process**: 
+
+👉 Goto This Pc>Linux🐧>Ubuntu>Home>Your_wls_username>Paste_your_`pop-v0.3.0-linux-x64.tar.gz`_file
+
+**Video Refrence-** 👇
+
+
+https://github.com/user-attachments/assets/2a932bfc-df13-4c73-816a-f0297f244b92
+
+
+
+* After paste the `pop-v0.3.0-linux-x64.tar.gz` file to your wsl path, **follow the process to unzip & move**:
+
+ 
+```
+sudo mv ~/pop-v0.3.1-linux-x64.tar.gz /opt/popcache/
+```
+
+```
+cd /opt/popcache/
+```
+
+```
+sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
+sudo chmod +x ./pop
+chmod 777 pop-v0.3.1-linux-x64.tar.gz
+sudo ln -sf /opt/popcache/pop /usr/local/bin/pop
+```
+
+* **After that follow all steps from** [Set Configuration File](https://github.com/Mayankgg01/Pipe-Testnet-Node-Guide?tab=readme-ov-file#set-configuration-file)
+
+
 
 If U have any issue then open a issue on this repo or Dm me on TG~
+
+
+👉 Join TG for more Updates: https://telegram.me/cryptogg
 
 Thank U! 👾
 
