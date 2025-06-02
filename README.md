@@ -86,7 +86,8 @@ sudo mkdir -p /opt/popcache/logs
 
 # Download the binary 👨🏻‍💻
 
-![Screenshot 2025-05-17 011814](https://github.com/user-attachments/assets/612259db-b1dd-44d3-9f18-924b5bf80140)
+![image](https://github.com/user-attachments/assets/e1197b48-143d-486b-a623-cb99d2f91011)
+
 
 
 
@@ -124,7 +125,7 @@ sudo mkdir -p /opt/popcache/logs
 * 5. Now move & Unrap the pop file with following these commands!
 
 ```
-sudo mv ~/pop-v0.3.0-linux-x64.tar.gz /opt/popcache/
+sudo mv ~/pop-v0.3.1-linux-x64.tar.gz /opt/popcache/
 ```
 
 ```
@@ -132,9 +133,9 @@ cd /opt/popcache/
 ```
 
 ```
-sudo tar -xzf pop-v0.3.0-linux-x64.tar.gz
+sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
 sudo chmod +x ./pop
-chmod 777 pop-v0.3.0-linux-x64.tar.gz
+chmod 777 pop-v0.3.1-linux-x64.tar.gz
 sudo ln -sf /opt/popcache/pop /usr/local/bin/pop
 ```
 
@@ -288,6 +289,65 @@ sudo systemctl stop popcache
 ```
 sudo systemctl restart popcache
 ```
+
+
+
+
+<div align="center">
+
+# 📈 Upgrade to new release/version (v0.3.1) {Local/Vps} 
+
+![image](https://github.com/user-attachments/assets/62f4e4d0-9eb8-44d9-8606-853d3d0e4e6e)
+
+
+</div
+
+
+* Stop popcache service
+
+```
+sudo systemctl stop popcache
+```
+
+* Delete old binary 
+
+```
+sudo rm -f /usr/local/bin/pop
+```
+
+```
+sudo rm -f /opt/popcache/pop-v0.3.0-linux-x64.tar.gz
+```
+
+* Delete old logs data
+
+```
+sudo rm ~/opt/popcache/logs/stderr.log
+```
+
+```
+sudo rm ~/opt/popcache/logs/stdout.log
+```
+
+* Now follow the [Download the binary](https://github.com/Mayankgg01/Pipe-Testnet-Node-Guide?tab=readme-ov-file#download-the-binary) process:
+
+* After that Reload & Start the service:
+
+```
+sudo systemctl daemon-reload
+```
+
+```
+sudo systemctl start popcache
+```
+
+* You dont need to do [Set Configuration File](https://github.com/Mayankgg01/Pipe-Testnet-Node-Guide?tab=readme-ov-file#set-configuration-file) process now:
+ 
+* You can check the Logs and file status:
+
+* if the logs looks like this: then its working:
+
+![image](https://github.com/user-attachments/assets/258db6cb-1706-454b-96ec-e32ba35670a2)
 
 
 👉 Join TG for more Updates: https://telegram.me/cryptogg
