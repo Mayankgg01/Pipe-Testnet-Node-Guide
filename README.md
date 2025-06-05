@@ -86,7 +86,8 @@ sudo mkdir -p /opt/popcache/logs
 
 # Download the binary 👨🏻‍💻
 
-![image](https://github.com/user-attachments/assets/e1197b48-143d-486b-a623-cb99d2f91011)
+![image](https://github.com/user-attachments/assets/2a27c2de-5ccc-4e75-bc88-5047d4fa61f2)
+
 
 
 
@@ -125,7 +126,7 @@ sudo mkdir -p /opt/popcache/logs
 * 5. Now move & Unrap the pop file with following these commands!
 
 ```
-sudo mv ~/pop-v0.3.1-linux-x64.tar.gz /opt/popcache/
+sudo mv ~/pop-v0.3.2-linux-x64.tar.gz /opt/popcache/
 ```
 
 ```
@@ -133,9 +134,9 @@ cd /opt/popcache/
 ```
 
 ```
-sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
+sudo tar -xzf pop-v0.3.2-linux-x64.tar.gz
 sudo chmod +x ./pop
-chmod 777 pop-v0.3.1-linux-x64.tar.gz
+chmod 777 pop-v0.3.2-linux-x64.tar.gz
 sudo ln -sf /opt/popcache/pop /usr/local/bin/pop
 ```
 
@@ -295,9 +296,10 @@ sudo systemctl restart popcache
 
 <div align="center">
 
-# 📈 Upgrade to new release/version (v0.3.1) {Local/Vps} 
+# 📈 Upgrade to new release/version (v0.3.2) {Local/Vps} 
 
-![image](https://github.com/user-attachments/assets/62f4e4d0-9eb8-44d9-8606-853d3d0e4e6e)
+![image](https://github.com/user-attachments/assets/0cec40ba-dbe3-4f53-92f8-f99b6104cc66)
+
 
 
 </div
@@ -316,7 +318,7 @@ sudo rm -f /usr/local/bin/pop
 ```
 
 ```
-sudo rm -f /opt/popcache/pop-v0.3.0-linux-x64.tar.gz
+sudo rm -f /opt/popcache/pop-v0.3.0-linux-x64.tar.gz && sudo rm -f /opt/popcache/pop-v0.3.1-linux-x64.tar.gz
 ```
 
 * Delete old logs data
@@ -353,17 +355,17 @@ sudo systemctl start popcache
 
 <div align="center">
 
-# 🏃 Path where u need to move `pop-v0.3.0-linux-x64.tar.gz` for LOCAL PC 🏃
+# 🏃 Path where u need to move `pop-v0.3.2-linux-x64.tar.gz` for LOCAL PC 🏃
 
 
 </div
 
 
-**------For the people who are facing issue while running pipe on local pc-- they are confused that where we have to move or drop the `pop-v0.3.0-linux-x64.tar.gz` file: So u have to watch this video for understing much batter:**
+**------For the people who are facing issue while running pipe on local pc-- they are confused that where we have to move or drop the `pop-v0.3.2-linux-x64.tar.gz` file: So u have to watch this video for understing much batter:**
 
 * **Process**: 
 
-👉 Goto This Pc>Linux🐧>Ubuntu>Home>Your_wls_username>Paste_your_`pop-v0.3.0-linux-x64.tar.gz`_file
+👉 Goto This Pc>Linux🐧>Ubuntu>Home>Your_wls_username>Paste_your_`pop-v0.3.2-linux-x64.tar.gz`_file
 
 **Video Refrence-** 👇
 
@@ -372,11 +374,11 @@ https://github.com/user-attachments/assets/2a932bfc-df13-4c73-816a-f0297f244b92
 
 
 
-* After paste the `pop-v0.3.0-linux-x64.tar.gz` file to your wsl path, **follow the process to unzip & move**:
+* After paste the `pop-v0.3.2-linux-x64.tar.gz` file to your wsl path, **follow the process to unzip & move**:
 
  
 ```
-sudo mv ~/pop-v0.3.1-linux-x64.tar.gz /opt/popcache/
+sudo mv ~/pop-v0.3.2-linux-x64.tar.gz /opt/popcache/
 ```
 
 ```
@@ -384,9 +386,9 @@ cd /opt/popcache/
 ```
 
 ```
-sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
+sudo tar -xzf pop-v0.3.2-linux-x64.tar.gz
 sudo chmod +x ./pop
-chmod 777 pop-v0.3.1-linux-x64.tar.gz
+chmod 777 pop-v0.3.2-linux-x64.tar.gz
 sudo ln -sf /opt/popcache/pop /usr/local/bin/pop
 ```
 
