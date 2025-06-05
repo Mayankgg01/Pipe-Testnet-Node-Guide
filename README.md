@@ -315,6 +315,10 @@ sudo systemctl stop popcache
 
 ```
 sudo rm -f /usr/local/bin/pop
+
+```
+```
+sudo rm -f /opt/popcache/pop
 ```
 
 ```
@@ -324,11 +328,11 @@ sudo rm -f /opt/popcache/pop-v0.3.0-linux-x64.tar.gz && sudo rm -f /opt/popcache
 * Delete old logs data
 
 ```
-sudo rm ~/opt/popcache/logs/stderr.log
+sudo rm /opt/popcache/logs/stderr.log
 ```
 
 ```
-sudo rm ~/opt/popcache/logs/stdout.log
+sudo rm /opt/popcache/logs/stdout.log
 ```
 
 * Now follow the [Download the binary](https://github.com/Mayankgg01/Pipe-Testnet-Node-Guide?tab=readme-ov-file#download-the-binary) process:
@@ -347,9 +351,10 @@ sudo systemctl start popcache
  
 * You can check the Logs and file status:
 
-* if the logs looks like this: then its working:
+* If the logs looks like this: then Ignore them:
 
-![image](https://github.com/user-attachments/assets/258db6cb-1706-454b-96ec-e32ba35670a2)
+![image](https://github.com/user-attachments/assets/9fc6e18a-db3a-4fea-811f-efaad545b16f)
+
 
 
 
