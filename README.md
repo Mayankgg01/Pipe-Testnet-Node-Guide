@@ -1,3 +1,16 @@
+<div align="left">
+
+#  **Introduction** 📔
+
+</div>
+
+
+**Pipe Network is a decentralized, permissionless content delivery network built on the Solana blockchain that aims to overcome the limitations of traditional centralized CDNs. By deploying hyperlocal Points of Presence (PoP) nodes in underserved regions, it optimizes latency and enhances real-time content delivery while reducing costs. Using a transparent credit-based payment system, Pipe Network fairly compensates node operators based on local resource scarcity. Its secure, scalable, and globally distributed architecture offers an innovative, efficient, and accessible solution for modern content delivery needs.**
+
+
+
+
+
 <div align="center">
 
 # 👨🏻‍💻 **Pipe-Testnet-Node-Guide** 👨🏻‍💻
@@ -256,7 +269,7 @@ tail -f /opt/popcache/logs/stdout.log
 
 * This will show something like that👇
 
-![image](https://github.com/user-attachments/assets/e7e2eec0-a2fb-442f-8257-dbd9053c5a4d)
+![image](https://github.com/user-attachments/assets/f1e3e7b7-f7ee-4fae-a0bd-46653dde9c2c)
 
 
 
@@ -351,7 +364,12 @@ sudo systemctl start popcache
  
 * You can check the Logs and file status:
 
-* If the logs looks like this: then Ignore them:
+* If logs return `⚠️  Mesh test service temporarily unavailable` ,  then Just restart Your service with: 
+
+```
+sudo systemctl restart popcache
+```
+* If still the same log then just wait for few hours or days than restart:
 
 ![image](https://github.com/user-attachments/assets/9fc6e18a-db3a-4fea-811f-efaad545b16f)
 
